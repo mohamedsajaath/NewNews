@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>NewNews</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- STYLESHEET -->
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- BOOTSTRAP ICON PACK -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css"
+        integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body class="body" style="background-color: #E8E8E8;margin: 0px;padding: 0px; overflow:auto; width: 100%;">
+    <!-- NAV BAR  -->
+    <nav class="navbar navbar-expand-md navbar-dark  navbarToggle" style="position: fixed; top:0px;">
+        <a class="navbar-brand" href="#" style="width: 61%;">
+            <img src="./images/newnews logo.png" id="logo">
+        </a>
+        <button class="navbar-toggler navbartogglerbtn" type="button" data-toggle="collapse"
+            data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <div class="collapse navbar-collapse uldiv" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto " style="font-weight:500; gap:15px;">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">World<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Politics<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Business<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Health<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">More<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <img class="navimage" src="./images/united-states.png" alt="country">
+                    <img class="navimage" src="./images/user.png" alt="user">
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- TOP NEWS -->
+    <div class="row w-100 topnews-mainRow" style="justify-content:space-around; ">
+        <div class="col-md-7 col-12 top-image" style="height:10%; z-index:99 ; padding-left:45px;width: 90%; ">
+
+            <img src="./images/Screenshot 2022-06-29 182207.png" alt="topNewsimg" style="width:100%; height:100%;">
+
+            <div class="text-div"
+                style="background-color: #F8F5F5;  height:20%; position: absolute; bottom: 0; padding-left:5px;">
+
+                <p class="topNews-header-w" style="margin-bottom: 0px;">Expanding Nato is Destabilising,says Russia</p>
+                <p class="topNews-description-w w-75">Nato Countries, Meeting For a Summit Against The Backdrop Of The
+                    Ukraine War, agreed to admit Sweaden & Finland.</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="col-md-5 col-12 w-100 topNews-sub-div">
+            <div class="row topnews-subfour"
+                style="height:100%;  justify-content: space-around; align-content: space-between;">
+
+                <div class="col-md-6 col-sm-6 col-6 top-image top-image-s" style="padding-left:10px; height: 45%;">
+                    <img src="./images/swedan finland.jpg" alt="topNewsimg" style=" width:100%; height:80%;">
+                    <div class="text-div"
+                        style="background-color: #F8F5F5; max-width:100%; min-width:100%; height:25%; padding-left:3px;">
+
+                        <p class="topNews-sub-header" style="margin-bottom: 0px; font-weight: 600;">NATO invites
+                            Finland, Sweden to join, says Russia is a 'direct threat'</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-6 top-image top-image-s" style="padding-left:10px; height: 45%;">
+                    <img src="./images/zelensky ukraine.jpg" alt="topNewsimg" style="width:100%; height:80%;">
+                    <div class="text-div"
+                        style="background-color: #F8F5F5; max-width:100%; min-width:100%; height:25%; padding-left:3px;">
+
+                        <p class="topNews-sub-header" style="margin-bottom: 0px; font-weight: 600;">Expanding Nato is
+                            Zelensky: 'Has Ukraine not paid enough' to join NATO?</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6  col-6 top-image top-image-s" style="padding-left:10px;height: 45%;">
+                    <img src="./images/japan heat.jpg" alt="topNewsimg" style="width:100%; height:80%;">
+                    <div class="text-div"
+                        style="background-color: #F8F5F5; max-width:100%; min-width:100%; height:23%; padding-left:3px;">
+
+                        <p class="topNews-sub-header" style="margin-bottom: 0px; font-weight: 600;">Japan swelters in
+                            worst heatwave since 1875 </p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-6 top-image top-image-s" style="padding-left:10px; height: 45%;">
+                    <img src="./images/news.jpeg" alt="topNewsimg" style="width:100%; height:80%;">
+                    <div class="text-div"
+                        style="background-color: #F8F5F5; max-width:100%; min-width:100%; height:23%; padding-left:3px;">
+
+                        <p class="topNews-sub-header" style="margin-bottom: 0px; font-weight: 600;">Supreme Court
+                            expands gun rights, with nation divided</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOP NEWS EMPTY -->
+    <!-- <div class="row topnews-mainRow">
+        <div class="col-md-12 col-12 top-image w-100" style="height:100px; z-index:99 ; background-color: white; ">
+            <h3 style="text-align: center; opacity:0.5; margin-top: 30px;"><i
+                    class="fa fa-spinner fa-pulse fa-1x fa-fw margin-bottom"></i>
+                <span class="sr-only">Loading...</span>
+            </h3>
+        </div>
+    </div> -->
+
+
+    <!-- NEWS CATOGERIES -->
+    <div class="row catogeries-row"
+        style="height:auto; padding-top:60px; width: 97.7%; margin-left: 15px; margin-bottom: 100px;">
+
+        <div class="col-md-3 col-10 catogeriesColumn">
+            <div class="cat-card w-100" style="background-color: rgb(255, 255, 255); height: 100%; padding-top:13px;">
+                <h4 class="catogeries-card-header">Featured</h4>
+
+                <div class="catogeries-card-text mt-4">
+                    <img src="./images/icons/airline.png" alt="catogeries-card-img" class="catogeries-card-img" />
+                    <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+                </div>
+                <div class="catogeries-card-text mt-4">
+                    <img src="./images/icons/ski-resort.png" alt="catogeries-card-img" class="catogeries-card-img" />
+                    <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+                </div>
+                <div class="catogeries-card-text mt-4 mb-8">
+                    <img src="./images/icons/mona-lisa.png" alt="catogeries-card-img" class="catogeries-card-img" />
+                    <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-10 catogeriesColumn">
+            <div class="cat-card w-100" style="background-color: rgb(255, 255, 255); height: 100%; padding-top:13px;">
+                <h4 class="catogeries-card-header">News & Buzz</h4>
+
+                <div class="catogeries-card-text mt-4">
+                    <img src="./images/icons/bus-school.png" alt="catogeries-card-img" class="catogeries-card-img" />
+                    <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+                </div>
+                <div class="catogeries-card-text mt-4">
+                    <img src="./images/icons/film-slate.png" alt="catogeries-card-img" class="catogeries-card-img" />
+                    <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+                </div>
+                <div class="catogeries-card-text mt-4 mb-4"">
+                    <img src=" ./images/icons/handcuffs.png" alt="catogeries-card-img" class="catogeries-card-img" />
+                <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-10 catogeriesColumn">
+        <div class="cat-card w-100" style="background-color: rgb(255, 255, 255); height: 100%; padding-top:13px;">
+            <h4 class="catogeries-card-header">Spotlight</h4>
+
+            <div class="catogeries-card-text mt-4">
+                <img src="./images/icons/cooperation.png" alt="catogeries-card-img" class="catogeries-card-img" />
+                <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+            </div>
+            <div class="catogeries-card-text mt-4">
+                <img src="./images/icons/bus-school.png" alt="catogeries-card-img" class="catogeries-card-img" />
+                <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+            </div>
+            <div class="catogeries-card-text mt-4 mb-4"">
+                    <img src=" ./images/icons/cargo-ship.png" alt="catogeries-card-img" class="catogeries-card-img" />
+            <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+        </div>
+    </div>
+    </div>
+
+    <div class="col-md-3 col-10 catogeriesColumn">
+        <div class="cat-card w-100" style="background-color: rgb(255, 255, 255); height: 100%; padding-top:13px;">
+            <h4 class="catogeries-card-header">Take a Break</h4>
+
+            <div class="catogeries-card-text mt-4">
+                <img src="./images/icons/law.png" alt="catogeries-card-img" class="catogeries-card-img" />
+                <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+            </div>
+            <div class="catogeries-card-text mt-4">
+                <img src="./images/icons/avatar.png" alt="catogeries-card-img" class="catogeries-card-img" />
+                <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+            </div>
+            <div class="catogeries-card-text mt-4 mb-4"">
+                    <img src=" ./images/icons/woman.png" alt="catogeries-card-img" class="catogeries-card-img" />
+            <p class="catogeries-card-inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="./images/source/bbc.png" alt="catogeries-card-img" class="catogeries-card-img-source">
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <!-- NEWS CATOGERIES empty -->
+    <!-- <div class="row catogeries-row"
+        style="height:38vh; padding-top:30px; width: 97.7%; margin-left: 15px; margin-bottom: 20px;">
+ 
+        <div class="col-md-3 col-10 catogeriesColumn">
+            <div class="cat-card w-100" style="background-color: rgb(255, 255, 255); height: 100%; padding-top:70px;">
+                <h3 style="text-align: center; opacity:0.4; margin-top: 30px;"><i
+                    class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>
+                <span class="sr-only">Loading...</span>
+            </h3>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-10 catogeriesColumn">
+            <div class="cat-card w-100" style="background-color: rgb(255, 255, 255); height: 100%; padding-top:70px;">
+                <h3 style="text-align: center; opacity:0.4; margin-top: 30px;"><i
+                    class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>
+                <span class="sr-only">Loading...</span>
+            </h3>
+            </div>
+        </div>
+        <div class="col-md-3 col-10 catogeriesColumn">
+            <div class="cat-card w-100" style="background-color: rgb(255, 255, 255); height: 100%; padding-top:70px;">
+                <h3 style="text-align: center; opacity:0.4; margin-top: 30px;"><i
+                    class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>
+                <span class="sr-only">Loading...</span>
+            </h3>
+            </div>
+        </div>
+        <div class="col-md-3 col-10 catogeriesColumn">
+            <div class="cat-card w-100" style="background-color: rgb(255, 255, 255); height: 100%; padding-top:70px;">
+                <h3 style="text-align: center; opacity:0.4; margin-top: 30px;"><i
+                    class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>
+                <span class="sr-only">Loading...</span>
+            </h3>
+            </div>
+        </div>
+
+    </div> -->
+
+
+    <!-- ADD -->
+    <div class="row w-100 add" style="margin-top: 50px; display:none;">
+        <div class="col-md-12 w-100">
+            <img src="./images/advertising-agency.jpg" alt="adimage"
+                style="height:auto; max-height:500px; width:102.3%; filter:brightness(80%)">
+            <button class="addbtn"
+                style="font-size: 25px; position: absolute; top:5px; right: 0px; background-color: transparent; border:none; color:white;"><i
+                    class="bi bi-x-circle"></i>
+            </button>
+
+        </div>
+    </div>
+
+
+
+    <!-- NEWS WIDGETS -->
+
+    <div class="row widgets"
+        style="margin-top: 50px; margin-left: 7.5%; width: 85%; margin-bottom: 80px; position: relative; display:none;">
+        <div class="col-md-4 col-12 " style="height: 304px; margin-bottom: 40px;">
+            <span class=" image-blur">
+                <img src="./images/widgets/pexels-pixabay-41953.jpg" alt="widget"
+                    class="widget-image image-brightness ">
+            </span>
+            <p class=" font-minimize"
+                style="position:relative ; top:-60%; text-align: center; color:white; font-size: 50px; font-weight: bolder;">
+                WORLD
+            </p>
+        </div>
+        <div class="col-md-4 col-12" style="height: 304px; margin-bottom: 40px;">
+            <span class=" image-blur">
+                <img src="./images/widgets/pexels-fauxels-3184306.jpg" alt="widget"
+                    class="widget-image image-brightness image-blur">
+            </span>
+            <p
+                style="position:relative ; top:-60%; text-align: center; color:white; font-size: 50px; font-weight: bolder;">
+                BUSINESS</p>
+        </div>
+        <div class="col-md-4 col-12" style="height: 304px; margin-bottom: 40px;">
+            <span class=" image-blur">
+                <img src="./images/widgets/pexels-pixabay-159652.jpg" alt="widget"
+                    class="widget-image image-brightness image-blur">
+            </span>
+            <p
+                style="position:relative ; top:-60%; text-align: center; color:white; font-size: 50px; font-weight: bolder;">
+                MORE
+            </p>
+        </div>
+        <div class="col-md-6 col-12" style="height:150px; margin-bottom: 40px;">
+            <span class=" image-blur">
+                <img src="./images/widgets/pexels-william-choquette-1954524.jpg" alt="widget"
+                    class="widget-image-w image-brightness image-blur">
+            </span>
+            <p
+                style="position:relative ; top:-80%; text-align: center; color:white; font-size: 50px; font-weight: bolder;">
+                HEALTH
+            </p>
+        </div>
+        <div class="col-md-6 col-12" style="height:150px;">
+            <span class=" image-blur">
+                <img src="./images/widgets/43343708691_1cdb7d00c0_o.jpg" alt="widget"
+                    class="widget-image-w image-brightness image-blur">
+            </span>
+            <p
+                style="position:relative ; top:-80%; text-align: center;  color:white; font-size: 50px; font-weight: bolder;">
+                POLITICS</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- COMPANIES LOGO -->
+    <div class="row companyLogo" style="  width: 100%; align-content: center; margin:0px; display:none;">
+        <div class="col-md-2 col-6">
+            <img src="./images/companies logo/bbc.png" alt="logo" class="companies-logo">
+        </div>
+        <div class="col-md-2 col-6">
+            <img src="./images/companies logo/cnn.png" alt="logo" class="companies-logo">
+
+        </div>
+        <div class="col-md-2 col-6">
+            <img src="./images/companies logo/ap news.png" alt="logo" class="companies-logo">
+
+        </div>
+        <div class="col-md-2 col-6">
+            <img src="./images/companies logo/al-jazeera-tv6503.jpg" alt="logo" class="companies-logo">
+
+        </div>
+        <div class="col-md-2 col-6">
+            <img src="./images/companies logo/ap news.png" alt="logo" class="companies-logo">
+
+        </div>
+        <div class="col-md-2 col-6">
+            <img src="./images/companies logo/al-jazeera-tv6503.jpg" alt="logo" class="companies-logo">
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- FOOTER -->
+    <footer class="w-100" style=" background-color:black; display:none; color:white;">
+        <div class="row w-100 mb-3" style="margin: 0px; padding-top:20px; height: 100px; align-content: space-around;">
+            <div class="col-md-4 col-8 d-flex" style="gap:10px; font-size: 18px;">
+                <p style="font-weight:500; margin-right: 10px;">FOLLOW US</p> <i class="bi bi-facebook"></i> <i
+                    class="bi bi-linkedin"></i> <i class="bi bi-twitter"></i> <i class="bi bi-instagram"></i>
+            </div>
+            <div class="col-md-4 col-4 "></div>
+            <div class="col-md-12 col-8 d-flex search-column" style="height:30px; gap: 0px; justify-content: flex-end; ">
+                <img src="./images/newnews logo.png" style="margin-top:5px; " id="logo">
+                <input type="text" class="search float-right form-control" placeholder="Search NewNews"
+                    style="height: 25px; background-color: #E8E8E8; width:150px;"/>
+            </div>
+
+        </div>
+
+        <div class="row" style="margin:0px;">
+            <div class="col-md-12 col-12">
+                <span class="row" style="background-color: white; height: 1px;"></span>
+
+            </div>
+
+        </div>
+
+        <div class="row w-100 mt-3 footer-links" style="margin: 0px; height: 60px; ">
+            <div class="col-md-9 col-12 d-flex" style="gap:15px; flex-wrap: wrap;  height: 10px;">
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">Terms of Use</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">Privacy Policy</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">Accessibility & CC</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">Ad Choices</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">About Us</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">Modern Slavery Act Statement</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">Advertise with us</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">NEWNEWS Store</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">Newsletters</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">Transcripts</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">License Footage</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">NewNews Newsource</p>
+                <p style="font-size:13px ; font-weight: 700; line-height: 1px;">Sitemap</p>
+
+            </div>
+        </div>
+        <div class="row w-100 " style="height: 100px; margin: 0px;">
+            <div class="col-md-5 col-12 d-flex" style="gap:15px; flex-wrap: wrap; height: auto;">
+                <small style="font-size:12px ; font-weight: 700; opacity:0.5;">© 2022 Cable News NetworkAll Rights
+                    Reserved.
+                    NewNews ™ & © 2016 Cable News Network.</small>
+
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/01de1fe131.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+
+        // RESIZE RELOAD FOR RESPONSIVE-------
+        $(window).resize(function () {
+            location.reload();
+        });
+
+        // RESPONSIVE NAV TOGGLE-------
+        $('.navbartogglerbtn').click(function () {
+            $('.navbarToggle').css("height", "auto");
+            $('.uldiv').css("margin-left", "0");
+            $('.uldiv>ul').css("gap", "0");
+            $('.navbar').css("position", "relative");
+
+        });
+
+
+        // RESPONSIVE SIZING-------
+        let topImgWidth = $('.top-image').width();
+
+        // $('.text-div').css("width", "94.8%");
+
+        let webWidth = $(window).width();
+
+
+
+        // RESPONSIVE TEXT-------
+        if (webWidth > 1900) {
+            // large
+
+            // Top News Wide
+            $('.topNews-header-w').css("font-size", "40px");
+            $('.topNews-description-w').css("font-size", "18px");
+            // Top News Columns
+            $('.topNews-sub-header').css("font-size", "17px");
+            $('.topNews-sub-description').css("font-size", "8px");
+
+            $('.catogeries-card-header').css("font-size", "25px");
+            $('.catogeries-card-inner-text').css("font-size", "15px");
+
+        } else if (webWidth > 1200 && webWidth < 1900) {
+            // pc
+
+            // Top News Wide
+            $('.topNews-header-w').css("font-size", "23px");
+            $('.topNews-description-w').css("font-size", "13px");
+            // Top News Columns
+            $('.topNews-sub-header').css("font-size", "11.5px");
+            $('.topNews-sub-description').css("font-size", "6px");
+
+        } else if (webWidth >= 992 && webWidth <= 1200) {
+            // pc small
+
+            // Top News Wide
+            $('.topNews-header-w').css("font-size", "18px");
+            $('.topNews-description-w').css("font-size", "12px");
+            // Top News Columns
+            $('.topNews-sub-header').css("font-size", "8px");
+            $('.topNews-sub-description').css("font-size", "5px");
+
+        } else if (webWidth >= 768 && webWidth < 992) {
+            // tab
+
+            // Top News Wide
+            $('.topNews-header-w').css("font-size", "15px");
+            $('.topNews-description-w').css("font-size", "8px");
+            // Top News Columns
+            $('.topNews-sub-header').css("font-size", "6.5px");
+            $('.topNews-sub-description').css("font-size", "4px");
+
+
+        } else if (webWidth < 768) {
+            // mobile
+
+            // Top News Wide
+            $('.topNews-header-w').css("font-size", "12px");
+            $('.topNews-description-w').css("font-size", "6px");
+            // Top News Columns
+            $('.topNews-sub-header').css("font-size", "7px");
+            $('.topNews-sub-description').css("font-size", "4px");
+
+        }
+
+
+
+
+        // RESPONSIVE ALIGNMENT-------
+        if (webWidth > 1900) {
+            // extra large
+
+            $('.text-div').css("width", topImgWidth);
+
+            $('.topnews-subfour').css("padding-left", "none");
+
+        } else if (webWidth > 1200 && webWidth < 1900) {
+            // large
+
+            $('.text-div').css("width", topImgWidth);
+
+            $('.topnews-subfour').css("padding-left", "none");
+
+        } else if (webWidth >= 992 && webWidth <= 1200) {
+            // pc
+
+            $('.text-div').css("width", topImgWidth);
+
+            $('.topnews-subfour').css("padding-left", "none");
+
+        } else if (webWidth >= 768 && webWidth < 992) {
+            // tab
+
+            $('.text-div').css("width", topImgWidth);
+
+            $('.topnews-subfour').css("padding-left", "none");
+
+        } else if (webWidth < 768) {
+            // mobile
+
+            $('.text-div').css("width", topImgWidth);
+
+            $('.topnews-subfour').css("padding-left", "35px");
+            $('.topNews-sub-div').css("padding-top", "20px");
+
+
+            $('.catogeries-row').css("width", "94%");
+
+            $('.catogeriesColumn').css("margin-left", "28px");
+            $('.catogeriesColumn').css("margin-bottom", "30px");
+
+
+            $('.footer-links').css("height","130px");
+            $('.search-column').css("margin-left", "10px");
+
+        }
+
+
+
+
+        // ADD 
+        setTimeout(function () {
+            $('.add').css("display", "block")
+        }, 1000)
+        $('.addbtn').click(function () {
+            $('.add').css("display", "none")
+        });
+
+
+
+        // ANIMATE WHEN SCROLL
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 5) {
+                $('.widgets').css("display", "flex");
+            } else {
+                $('.widgets').css("display", "none");
+            }
+
+            if ($(window).scrollTop() > 400) {
+                $('.companyLogo').css("display", "flex");
+            } else {
+                $('.companyLogo').css("display", "none");
+            }
+
+            if ($(window).scrollTop() > 400) {
+                $('footer').css("display", "");
+            }
+        });
+
+
+
+
+    </script>
+
+</body>
+
+</html>
