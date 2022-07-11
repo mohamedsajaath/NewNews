@@ -65,7 +65,7 @@
             <img src="./images/Screenshot 2022-06-29 182207.png" alt="topNewsimg" style="width:100%; height:100%;">
 
             <div class="text-div"
-                style="background-color: #F8F5F5;  height:20%; position: absolute; bottom: 0; padding-left:5px;">
+                style="background-color: #F8F5F5;  height:20%; position: sticky; bottom: 0; padding-left:5px;">
 
                 <p class="topNews-header-w" style="margin-bottom: 0px;">Expanding Nato is Destabilising,says Russia</p>
                 <p class="topNews-description-w w-75">Nato Countries, Meeting For a Summit Against The Backdrop Of The
@@ -549,36 +549,35 @@
         if (webWidth > 1900) {
             // extra large
 
-            $('.text-div').css("width", topImgWidth);
+            
 
             $('.topnews-subfour').css("padding-left", "none");
 
         } else if (webWidth > 1200 && webWidth < 1900) {
             // large
 
-            $('.text-div').css("width", topImgWidth);
+
 
             $('.topnews-subfour').css("padding-left", "none");
 
         } else if (webWidth >= 992 && webWidth <= 1200) {
             // pc
 
-            $('.text-div').css("width", topImgWidth);
+        
 
             $('.topnews-subfour').css("padding-left", "none");
 
         } else if (webWidth >= 768 && webWidth < 992) {
             // tab
 
-            $('.text-div').css("width", topImgWidth);
+        
 
             $('.topnews-subfour').css("padding-left", "none");
 
         } else if (webWidth < 768) {
             // mobile
 
-            $('.text-div').css("width", topImgWidth);
-
+      
             $('.topnews-subfour').css("padding-left", "35px");
             $('.topNews-sub-div').css("padding-top", "20px");
 
